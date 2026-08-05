@@ -11,7 +11,7 @@ public:
         for (int i = start; i < nums.size(); i++) {
             swap(nums[start], nums[i]);
             backtrack(nums, start + 1);
-            swap(nums[start], nums[i]); // Backtrack
+            swap(nums[start], nums[i]);
         }
     }
 
